@@ -1,0 +1,158 @@
+{
+    "data_lang": "zh-CN",
+    "ga_id": "UA-85464370-1",
+    "resume_title": "林桐滨 - 个人简历",
+    "name": "林桐滨",
+    "job_description": [
+        "iOS 开发工程师",
+        "软件工程师"
+    ],
+    "contact": {
+        "email": "aberltlin@gmail.com",
+        "phone": "18814182428",
+        "wechat": {
+            "id": "yyl_bin",
+            "qrcode": "static/wechat.png"
+        },
+        "github": {
+            "id": "aberlt"
+        }
+    },
+    "links": [
+        {
+            "type": "repo",
+            "url": "https://github.io/aberlt/resume"
+        },
+        {
+            "type": "pdf",
+            "url": "static/aberlt_resume.pdf"
+        }
+    ],
+    "education": [
+        {
+            "type": "undergraduate",
+            "name": "五邑大学（本科）",
+            "major": "软件工程",
+            "start": "2013",
+            "end": "2017",
+            "honor": [
+                "2013 - 2014 学年**国家励志奖学金**",
+                "2014 - 2015 学年**国家励志奖学金**、**三等奖学金**",
+                "2015 - 2016 学年**国家励志奖学金**、**二等奖学金**",
+                "2015 第六届蓝桥杯 Java 广东省**三等奖**"
+            ]
+        }
+    ],
+    "language": [
+                {
+                        "type": "english",
+                        "certificate": [
+                                {
+                                         "type": "CET-4",
+                                         "full": "710",
+                                         "score": "501"
+                                }
+                        ],
+                        "description": [
+                                "科学上网，善于使用 Google 进行英文检索，解决问题",
+                                "能阅读英文文档及其他资料",
+                                "能查阅 Stack Overflow 等社区上的解决方案"
+                        ]
+                }
+        ],
+        "skills":[
+                {
+                        "type": "frontend",
+                        "item": [
+                                {
+                                        "summary": "`Objective-C`",
+                                        "description":[
+                                                "熟练使用 `Objective-C` 进行 `iOS` 应用开发",
+                                                "熟练使用 `UIKit` 搭建界面，熟练使用 `Masonary` 进行自动布局，喜欢纯代码开发",
+                                                "熟练使用 `storyboard` 和 `xib` 搭建界面",
+                                                "对内存管理、`block`、`RunLoop`、`GCD` 等有一定的了解",
+                                                "良好的编码习惯"
+                                        ]
+                                },
+                                {
+                                        "summary": "`Xcode`",
+                                        "description": [
+                                                "熟练使用 Xcode 进行开发，熟悉常用快捷键",
+                                                "懂得应用发布流程"
+                                        ]
+                                }
+                        ]
+                },
+                {
+                        "type": "miscellaneous",
+                        "item": [
+                                "使用 `Git` 进行团队协作开发",
+                                "使用 `Markdown` 编写文档",
+                                "熟练使用 Photoshop 和 sketch 进行切图"
+                        ]
+                }
+        ],
+        "experience": [
+                {
+                        "type": "internship",
+                        "techtype": "iOS",
+                        "place": "广州加佳康医疗科技有限公司",
+                        "start": "2016.11",
+                        "end": "至今",
+                        "name": "iOS 开发",
+                        "description": [
+                            "App 日常维护，修复应用 Bug。能迅速定位客服反应的 Bug 并修复",
+                            "负责对公司现有 App —— `酷宝`新功能模块的开发和上架，使用 `Objective-C`进行开发，界面的搭建主要使用 `storyboard` + `AutoLayout` ，部分控件使用 `xib`",
+                            "对旧代码的部分功能进行优化，重构",
+                            "测试 App 与酷宝设备的数据传输（蓝牙协议）",
+                            "测试后台接口"
+                        ],
+                        "stack": [
+                            "iOS",
+                            "Objective-C",
+                            "storyboard",
+                            "AutoLayout",
+                            "xib"
+                        ]
+                },
+                {
+                        "type": "project",
+	                    "techtype": "iOS",
+                        "project_type": "personal",
+                        "name": "悠读",
+                        "description": [
+                                "毕设项目，一款简易的 RSS 离线阅读器 App，独立开发",
+                                "以 `MVC` 设计模式进行开发，使用的语言是 `Objective-C`，界面的搭建主要使用 `Masonary`，少量使用 `xib`",
+                                "本地数据持久化使用 `SQLite` 进行存储，实现过程中使用了 `FMDB`",
+                                "使用 `LeanCloud` 的数据存储服务替代服务器的开发",
+                                "尝试使用 `GCD` 和 `NSOperation` 进行多线程开发",
+                                "使用 `block`，协议扩展降低代码耦合性，封装网络请求和数据库工具类提高代码复用性"
+                        ],
+                        "stack": [
+                                "iOS",
+                                "Objective-C",
+                                "GCD",
+                                "NSOperation",
+                                "block"
+                        ]
+                },
+                {
+                        "type": "project",
+                        "techtype": "iOS",
+                        "project_type": "presonal",
+                        "name": "校园便利店",
+                        "source": "",
+                        "description": [
+                                "一款仿“在家点点”的商城 App 。由四人合作完成，iOS 端两人，服务器端两人",
+                                "使用 `Objective-C` 纯代码开发，使用 frame 进行界面搭建",
+                                "主要负责超市、购物车、商品详情、确认订单等界面的搭建和功能实现",
+                                "学习 iOS 开发后，一次比较完整的 App 开发体验。使我对于 UI 控件的使用更加熟练，更加明白如何去解析后台传递的数据，学会了协议扩展和 `block` 的使用，进一步了解 MVC 设计模式"
+                        ],
+                        "stack": [
+                                "iOS",
+                                "Objective-C",
+                                "block"
+                        ]
+                }
+        ]
+}
